@@ -15,11 +15,6 @@ body {
     display: flex;
 }
 
-/* #content-hero {
-    height: 100%;
-    min-height: 80%;
-} */
-
 .hero-section {
     display: flex;
     align-items: center;
@@ -38,11 +33,18 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.hero-section h1 {
+    font-size: clamp(1rem, 1.5rem, 2rem);
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
 .hero-section p {
     font-size: clamp(0.75rem, 0.75rem, 1rem);
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .hero-image {
@@ -50,8 +52,8 @@ body {
     height: 12rem;
     margin: auto auto;
     border-radius: 50%;
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     background: url(/images/IMG_0070.JPG) no-repeat;
     background-position: 42% 50%;
     background-size: 200%;
