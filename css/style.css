@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body {
     /* background: rgb(252, 252, 252);
     background: radial-gradient(circle, rgba(112, 213, 215, 1) 0%, rgba(9, 121, 118, 1) 48%, rgba(0, 212, 255, 1) 100%); */
     background: rgb(29, 36, 38);
-    background: radial-gradient(circle, rgba(29, 36, 38, 1) 25%, rgba(126, 126, 126, 1) 35%, rgba(0, 0, 0, 1) 51%);
+    background: radial-gradient(circle, rgba(29, 36, 38, 1) 25%, rgba(0, 0, 0, 1) 51%);
     background-repeat: no-repeat;
     height: auto;
     min-height: 100vh;
@@ -26,11 +27,11 @@ body {
     transform: translateY(20%);
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(150, 150, 150, 0.404);
     border-radius: 2rem;
     box-shadow: 0px 0 31px 0px rgb(0 0 0 / 10%);
     backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(107, 107, 107, 0.452);
 }
 
 .hero-section h1 {
@@ -40,6 +41,12 @@ body {
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
+
+#home h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
 .hero-section p {
     font-size: clamp(0.75rem, 0.75rem, 1rem);
     font-weight: 500;
@@ -54,9 +61,9 @@ body {
     border-radius: 50%;
     max-width: 12rem;
     max-height: 12rem;
-    background: url(/images/IMG_0070.JPG) no-repeat;
-    background-position: 42% 50%;
-    background-size: 200%;
+    background: url(/images/Untitled.png) no-repeat;
+    background-position: 47% 44%;
+    background-size: 332%;
 }
 
 .social-links {
